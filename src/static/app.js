@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
         messageDiv.className = "error";
       }
 
-      messageDiv.classList.remove("hidden");
+      messageDiv.classList.remove("hidden"); 
 
       // Hide message after 5 seconds
       setTimeout(() => {
